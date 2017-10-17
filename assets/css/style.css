@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #fdf7ef;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #645e56;
+  
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container, .main {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  clear: both;
+  flex: 1 0 auto;
+  padding: 20px;
+  }
+
+#legend {
+  font-size: 36pt;
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+h3 {
+  display: inline;
+}
+#tower {
+  width: 470px;
+  height: 541px;
+  background-image: url("file://C:/Users/Pedro/code/Hangman-Game/assets/images/initial.png");
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+#tower span {
+  position: absolute;
+  bottom: 30px;
+  left: 5%;
+  width: 420px;
+  text-align: center;
+}
+p {
+  font-size: 30pt;
+}
+
+
+
+footer, .push {
+  height: 30px;
+}
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #645e56;
+  border-top: 8px solid #4aaaa5;
+  flex: 0;
+  padding: 20px;
+}
