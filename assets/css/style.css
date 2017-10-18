@@ -38,6 +38,14 @@ nav {
 h3 {
   display: inline;
 }
+
+#click-me {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 2px;
+  margin-right: 5px;
+}
+
 #tower {
   width: 470px;
   height: 541px;
