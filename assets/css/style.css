@@ -15,6 +15,9 @@ header {
   
   height: auto;
   border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #777;
   margin-top: 1%;
   margin-left: 10%;
   margin-right: 10%;
@@ -31,6 +34,8 @@ header {
 #legend {
   font-size: 36pt;
   text-align: center;
+  padding-bottom: 10px;
+
 }
 nav {
   text-align: center;
@@ -39,11 +44,23 @@ h3 {
   display: inline;
 }
 
-#click-me {
-  background-color: blue;
+#start-button {
+  background-color: #5177b5;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #273956;
+  padding: 2px;
+  margin-right: 5px;
+}
+#reset-button{
+  background-color: #5177b5;
   border-radius: 5px;
   padding: 2px;
   margin-right: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #273956;
 }
 
 #tower {
@@ -53,6 +70,7 @@ h3 {
   display: block;
   margin: auto;
   position: relative;
+  border-bottom: 5px solid #444;
 }
 
 #tower span {
