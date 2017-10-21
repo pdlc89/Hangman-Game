@@ -66,7 +66,7 @@ h3 {
 #tower {
   width: 470px;
   height: 541px;
-  background-image: url("file://C:/Users/Pedro/code/Hangman-Game/assets/images/initial.png");
+  background-image: url("C://Users/Pedro/code/Hangman-Game/assets/images/initial.png");
   display: block;
   margin: auto;
   position: relative;
